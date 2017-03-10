@@ -63,11 +63,11 @@
 <h2>最后一篇文章一级标题</h2>
 <h2>文章二级标题</h2>
 <h3>文章作者&nbsp文章发表时间</h3>
-	<ul>
-		<ol>排名1</ol>
-		<ol>排名2</ol>
-		<ol>排名3</ol>
-	</ul>
+	<ol>
+		<li>排名1</li>
+		<li>排名2</li>
+		<li>排名3</li>
+	</ol>
 	<p>下面是一个表格,给表格加了一个border="1"好让你看出是一个表格</p>
 	<table border="1">
 		<tr>
@@ -100,5 +100,35 @@
 			<td colspan="2">1000</td>
 		</tr>
 	</table>
+
+<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+<h2>侧栏注册窗口标题</h2>
+	<form action="#">
+		请输入邮箱地址:<input type="text"><br>
+		享有请按要求格式输入<br>
+		请输入密码:<input type="password">
+		请重复输入密码:<input type="password"><br>
+		密码请为6-16位英文数字<br>
+		<br>
+		性别:
+		<input type="radio" value="男" name="sex" checked="checked" id="1"><label for="1">男</label>
+		<input type="radio" value="女" name="sex" id="2"><label for="2">女</label>
+		<label for="3">城市:</label>
+		<select name="city" id="3">
+			<option value="beijing">北京</option>
+			<option value="guangzhou">广州</option>
+			<option value="shanghai">上海</option>
+		</select>
+		爱好:
+		<input type="checkbox" name="h" value="sport" id="6">
+		<label for="6">运动</label>
+		<input type="checkbox" name="h" value="art" id="7">
+		<label for="7">艺术</label>
+		<input type="checkbox" name="h" value="science" id="8">
+		<label for="8">科学</label>
+		个人描述: <textarea name="description" ></textarea>
+		<input type="submit" value="提交">
+	</form>
+版权所有&copy
 </body>
 </html>
